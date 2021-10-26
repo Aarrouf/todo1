@@ -11,6 +11,7 @@ import { ListItemComponent } from './list-item/list-item.component';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatIconModule } from '@angular/material/icon';
 import { TodoListComponent } from './todo-list/todo-list.component';
+import {MatSidenavModule} from '@angular/material/sidenav';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { TodoListComponent } from './todo-list/todo-list.component';
     BrowserAnimationsModule,
     MatButtonModule,
     MatCheckboxModule,
-    MatIconModule
+    MatIconModule,
+    MatSidenavModule
 
 
   ],
