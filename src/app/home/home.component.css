@@ -1,0 +1,38 @@
+mat-drawer-continer{
+  height: 100%;
+}
+mat-drawer{
+  background-color: #333;
+}
+mat-drawer-content{
+  background-color: white;
+}
+#list-title{
+  padding: 10px;
+  text-align: left;
+  width: calc(100% - 20px);
+  background-color: #0404a0;
+  color: white;
+  font-weight: bold;
+}
+#list{
+  padding-top: 10px;
+}
+#list button{
+  display:inline-block;
+  width:100%;
+  color: white;
+  text-align: left;
+  border-radius: 0px;
+}
+#list button:hover{
+  background-color: #464646;
+  cursor: pointer;
+}
+#list button.selected{
+  background-color: #565656;
+}
+
+.container{
+  padding:10px;
+}

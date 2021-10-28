@@ -27,5 +27,7 @@
     "strictInputAccessModifiers": true,
     "strictTemplates": true,
     "noImplicitAny": false
-  }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
 }
